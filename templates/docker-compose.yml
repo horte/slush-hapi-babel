@@ -1,4 +1,5 @@
 <%= appNameSlug %>-server:
+  build: ./.
   ports:
   - '8000:8000'
   - '8100:8080'
