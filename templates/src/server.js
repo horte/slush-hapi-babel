@@ -14,7 +14,7 @@ export default class Server {
 
   _setupConnection() {
     this.server.connection({
-      host: SERVER_HOSTNAME,
+      host: SERVER_HOST,
       port: SERVER_PORT,
       labels: ['web'],
     });
